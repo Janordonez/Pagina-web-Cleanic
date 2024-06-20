@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cleanic</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesunete.css">
+    <link rel="icon" href="IMG/CLEANIC.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href = "#" class = logo>CLEANIC</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Nosotros</a></li>
+                <li><a href = "#">Servicios</a></li>
+                <li><a href = "unete.html">Unete</a></li>
+                <li><a href = "inciosesion.html">Inicia Sesion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id = "hero">
+        <div class="container">
+            <div class="hero-box">
+                <h1 class = "hero-heading">Forma Parte De Nuestro Equipo</h1>
+                <p class = "hero-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus temporibus pariatur incidunt eius dolorem! Atque beatae amet, impedit dolores nam velit laudantium voluptatem reprehenderit facilis non hic omnis aut autem!</p>
+                <div class="btn-box">
+                    <a href="#form" class = " cta-btn try">Unete ahora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Form" id = "form">
+        <div class="container-form">
+            <div class="title">Registrate</div>
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Nombre Completo</span>
+                        <input type="text" placeholder="Ingrese su nombre" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Username</span>
+                        <input type="text" placeholder="Ingrese su nombre de usuario" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="text" placeholder="Ingrese su Email" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Número de teléfono</span>
+                        <input type="text" placeholder="Ingrese su número" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Contraseña</span>
+                        <input type="password" placeholder="Ingrese su contraseña" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Confirme su contraseña</span>
+                        <input type="password" placeholder="Confirme su contraseña" required>
+                    </div>
+                </div>
+                <div class="gender-details">
+                    <span class="gender-title">Sexo</span>
+                    <div class="category">
+                        <label>
+                            <input type="radio" name="gender" value="Masculino" required>
+                            <span class="dot one"></span>
+                            <span class="Sexo">Masculino</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="gender" value="Femenino" required>
+                            <span class="dot one"></span>
+                            <span class="Sexo">Femenino</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="gender" value="Prefiero no decirlo" required>
+                            <span class="dot one"></span>
+                            <span class="Sexo">Prefiero no decirlo</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Registrar">
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class = "footer">
+        <div class="container-footer">
+            <div class="footer-row">
+                <div class="footer-links">
+                    <h4>Compañia</h4>
+                    <ul>
+                        <li><a href = "header">Nosotros</a></li>
+                        <li><a href = "header">Servicios</a></li>
+                        <li><a href = "header">Unete</a></li>
+                        <li><a href = "header">Inicia sesion</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Ayuda</h4>
+                    <ul>
+                        <li><a href = "header">Preguntas</a></li>
+                        <li><a href = "header">Tarifas</a></li>
+                        <li><a href = "header">Politicas</a></li>
+                        <li><a href = "header">F&Q</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Ayuda</h4>
+                    <ul>
+                        <li><a href = "header">Preguntas</a></li>
+                        <li><a href = "header">Tarifas</a></li>
+                        <li><a href = "header">Politicas</a></li>
+                        <li><a href = "header">F&Q</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Siguenos</h4>
+                    <div class="social-link">
+                        <a href = "#"><i class = "fab fa-facebook-f"></i></a>
+                        <a href = "#"><i class = "fab fa-instagram"></i></a>
+                        <a href = "#"><i class = "fab fa-linkedin"></i></a>
+                        <a href = "#"><i class = "fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+</script>
+<script type="text/javascript">
+    window.addEventListener("scroll", function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("abajo",window.scrollY>0);
+    })
+
+</script>
+</body>
+</html>
